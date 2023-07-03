@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image:url(img/antenna\ 1.png);
+    width: 70px;
+    height: 70px;
+}
+.card2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image:url(img/clock\ 1.png);
+    width: 70px;
+    height: 70px;
+    left: 70px;
+}
+.card3::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image:url(img/diagram\ 1.png);
+    width: 70px;
+    height: 70px;
+    left: 140px;
+}
+.card4::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image:url(img/astronaut\ 1.png);
+    width: 70px;
+    height: 70px;
+    left: 210px;
+}
